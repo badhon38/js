@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Calculator</title>
+  </head>
+  <body class="back">
+    
+    <div class="container">
+      <div class="from-back">
+      <h1>Calculator</h1>
+      <br>
+      <br>
+      <div class="col-md-6 offset-3">
+    <form name="Calculator" class="Calculator">
+      <p style="text-align:right; color: #black;">Casio fx-991Ex</p>
+      <input type="readonly" name="display" class="display">
+      <br>
+      <br>
+      <a href="index.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">c</a>
+      <br>
+      <input type="button" name="zero" value="0" onclick="addzero()" class="font-ic">
+      <input type="button" name="one" value="1" onclick="addone()"class="font-ic">
+      <input type="button" name="two" value="2" onclick="addtwo()"class="font-ic">
+      <input type="button" name="three" value="3" onclick="addthree()"class="font-ic">
+<br>
+      <input type="button" name="four" value="4" onclick="addfour()"class="font-ic">
+      <input type="button" name="five" value="5" onclick="addfive()"class="font-ic">
+      <input type="button" name="six" value="6" onclick="addsix()"class="font-ic">
+      <input type="button" name="seven" value="7" onclick="addseven()"class="font-ic">
+<br>
+      <input type="button" name="eight" value="8" onclick="addeight()"class="font-ic">
+      <input type="button" name="nine" value="9" onclick="addnine()"class="font-ic">
+      <input type="button" name="add" value="+" onclick="addplus()"class="font-ic">
+      <input type="button" name="sub" value="-" onclick="addmin()"class="font-ic">
+<br>
+      <input type="button" name="mult" value="*" onclick="addmult()"class="font-ic">
+      <input type="button" name="div" value="/" onclick="adddiv()"class="font-ic">
+      <input type="button" name="equal" value="=" onclick="addequ()"class="font-ic">
+
+
+
+
+    </form>
+</div>
+</div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+
+      function addzero (){
+        document.Calculator.display.value += "0";
+
+      }
+      function addone (){
+        document.Calculator.display.value += "1";
+
+      }
+      function addtwo (){
+        document.Calculator.display.value += "2";
+
+      }
+      function addthree (){
+        document.Calculator.display.value += "3";
+
+      }
+      function addfour (){
+        document.Calculator.display.value += "4";
+
+      }
+      function addfive (){
+        document.Calculator.display.value += "5";
+
+      }
+      function addsix (){
+        document.Calculator.display.value += "6";
+
+      }
+      function addseven (){
+        document.Calculator.display.value += "7";
+
+      }
+      function addeight (){
+        document.Calculator.display.value += "8";
+
+      }
+      function addnine (){
+        document.Calculator.display.value += "9";
+
+      }
+      function addplus (){
+        document.Calculator.display.value += "+";
+
+      }
+      function addmin (){
+        document.Calculator.display.value += "-";
+
+      }
+      function addmult (){
+        document.Calculator.display.value += "*";
+
+      }
+      function adddiv (){
+        document.Calculator.display.value += "/";
+
+      }
+      function addequ (){
+        var result = eval(document.Calculator.display.value);
+        document.Calculator.display.value =result;
+
+      }
+
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+.back{
+    background-color: gray;
+}
+
+.from-back{
+    background-color: #fff;
+}
+h1{
+    color: gray;
+    text-align: center;
+}
+p{
+    margin: 0px 19px;
+}
+.Calculator {
+    padding-top: 42px;
+    text-align: center;
+    border: 2px solid;
+    background: #e5ecf7;
+    padding-bottom: 20px;
+}
+.display {
+    padding: 20px 3px;
+    background-color: skyblue;
+color:#ffff;
+    font-size: 38px;
+}
+.font-ic{
+    font-size: 32px;
+padding: 16px 45px;
+margin: 5px;
+color:
+#fff;
+background-color:
+#2c8ba8;
+}
